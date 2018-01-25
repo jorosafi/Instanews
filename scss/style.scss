@@ -1,0 +1,13 @@
+//Imported but not included in the style sheet
+@import 'variables';
+@import 'mixins';
+
+//Complied in the style sheet
+@import 'reset';
+@import 'fonts';
+@import 'globals';
+@import 'header';
+@import 'content';
+@import 'footer';
+
+
