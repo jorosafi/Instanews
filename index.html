@@ -6,9 +6,23 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="./build/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 <body>
-    <h1>Calvind</h1>
+    <header></header>
+    <div class="container">
+    <img src="./images/nyt-logo.svg">
+    <p>Choose a section</p>
+    <select name="news-sections" id="news-sections">
+            <option value="original-section" selected>Selected...</option>
+            <option value="U.S.">U.S.</option>
+            <option value="Sports">Sports</option>
+            <option value="World">World</option>
+            <option value="Technology">Technology</option>
+            <option value="Science">Science</option>
+    </select>
+    <p class="list"></p>
     <script src="./build/js/index.min.js"></script>
+</div>
 </body>
 </html>
