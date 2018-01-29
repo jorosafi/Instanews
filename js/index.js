@@ -2,6 +2,9 @@ $('select[name="news-sections"]').change(function () {
 
 
     var selected = $(this).val();
+    $('.site-header').addClass('newHeader');
+    $('.list').addClass('newList');
+
         
     $('.list').empty()
         var url = "https://api.nytimes.com/svc/topstories/v2/" +  selected + ".json";
@@ -20,9 +23,10 @@ $('select[name="news-sections"]').change(function () {
             console.log(result);
             $.each(picStories, function(index, value) {
                   var html = "";
-                  html += "<li>";
-                  html += '<img src="' + value.multimedia[3].url + '"/>';
-                  html += '<p>' + value.abstract + '</p>';
+                  html += '<li>';
+                  html += '<div class="bkimg" style="background-image:url(' + value.multimedia[4].url + ')">';
+                  html += '<div class="abstract">';
+                  html += '<p>' + value.abstract + '</p></div></div>';
                   html += "</li>";
                   $(".list").append(html);
                 
