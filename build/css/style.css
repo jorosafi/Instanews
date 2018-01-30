@@ -124,6 +124,9 @@ body {
     text-align: left;
     padding-left: 70px; } }
 
+#news-sections {
+  font-size: 1.1rem; }
+
 .choose-section {
   color: white; }
 
