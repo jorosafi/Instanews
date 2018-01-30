@@ -40,6 +40,10 @@ body {
   font-size: 16px;
   font-family: 'Open Sans'; }
 
+.logo {
+  -webkit-transition: all .5s ease-out;
+  transition: all .5s ease-out; }
+
 .site-header {
   display: -webkit-box;
   display: -ms-flexbox;
