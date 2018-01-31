@@ -22,6 +22,15 @@
       -webkit-box-sizing: border-box;
               box-sizing: border-box; } }
 
+@font-face {
+  font-family: 'Open Sans';
+  src: url("../../fonts/OpenSans-Light.woff2") format("woff2"), url("../../fonts/OpenSans-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal; }
+
+html {
+  font-family: 'Open Sans'; }
+
 .container {
   min-height: 100vh;
   display: -webkit-box;
@@ -150,6 +159,7 @@ body {
 .footer {
   text-align: center; }
   .footer .copyright {
+    padding: 2rem;
     color: #c2c2c2; }
   @media (min-width: 1000px) {
     .footer {
