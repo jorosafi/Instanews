@@ -141,7 +141,6 @@ body {
   font-size: 1.1rem; }
 
 .choose-section {
-  padding-bottom:20px;
   color: white; }
 
 .bkimg {
@@ -155,7 +154,9 @@ body {
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.6);
     width: 100%;
-    text-align: left; }
+    text-align: left;
+    padding: 8px;
+    line-height: 1.5rem; }
 
 .footer {
   text-align: center; }
